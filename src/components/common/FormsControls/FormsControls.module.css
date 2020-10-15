@@ -1,0 +1,32 @@
+.formControl {
+  display: block;
+  height: 80px;
+  font-family: inherit;
+}
+.input {
+  padding-left: 10px;
+  border: solid rgb(240, 240, 240) 2px;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  font-family: inherit;
+}
+.formControl.error input {
+  border: solid red 2px;
+}
+.formControl.error span {
+  color: red;
+  font-size: 75%;
+}
+select {
+  padding: 1px 2px 1px 10px;
+  border: solid rgb(240, 240, 240) 2px;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+}
+.calendar {
+  padding-left: 10px;
+  border: solid rgb(240, 240, 240) 2px;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  font-family: inherit;
+}
