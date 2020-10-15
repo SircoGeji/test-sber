@@ -30,7 +30,7 @@ const InfoForm = (props) => {
                     placeholder={'Отчество'}
                     name={'patronymic'}
                     component={Input}
-                    validate={[required]}
+                    validate={[]}
                     className={styles.LongField}
                 />
             </div>
@@ -75,7 +75,7 @@ const InfoForm = (props) => {
                     placeholder={'Адрес постоянной регистрации'}
                     name={'address'}
                     component={Input}
-                    validate={[required]}
+                    validate={[]}
                     className={styles.LongField}
                 />
             </div>
@@ -84,7 +84,7 @@ const InfoForm = (props) => {
                     placeholder={'Название работодателя'}
                     name={'employer'}
                     component={Input}
-                    validate={[required]}
+                    validate={[]}
                     className={styles.LongField}
                 />
             </div>

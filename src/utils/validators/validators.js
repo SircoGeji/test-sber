@@ -17,8 +17,10 @@ export const phoneNumber = value =>
     value &&  /^(8|9)[0-9]{2}$/.test(value) ?
         'Номер введен неверно' : undefined
 export const birthDate = value =>
-    value && /^\d{2}[.]\d{2}[.]\d{4}$/.test(value) ?
+    // value && /^[0-9]{2}\.[0-9]{2}\.[0-9]{4}$/.test(value) ?
+    value && !/^\d\d\.\d\d\.\d{4}$/.test(value) ?
         'Введите корректную дату' : undefined
+
 export const email = value =>
     value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ?
         'Введен некорректный адрес почты' : undefined
